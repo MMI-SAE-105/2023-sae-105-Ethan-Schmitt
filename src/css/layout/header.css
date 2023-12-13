@@ -1,5 +1,4 @@
 
-
 /* Ajoutez les importations manquantes ici */
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
@@ -16,9 +15,9 @@ header {
     margin-left: -10px;
     margin-right: -10px;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    position: relative;
+    flex-direction: column;
+    
+    justify-content: center;
 }
 
 header::before {
@@ -32,16 +31,18 @@ header::before {
     background: rgba(1, 49, 180, 0.42);
     z-index: 0;
 }
+
 #logo {
     width: 86px;
     height: 92px;
     flex-shrink: 0;
     z-index: 1;
-    position: absolute; /* Positionne le logo de manière absolue par rapport au header */
-    top: 40px; /* Décale le logo de 20px à partir du haut */
+    position: absolute;
+    top: 40px;
     left: 10px;
-    right: auto; /* Décale le logo de 10px à partir de la droite */
+    right: auto;
 }
+
 header h1 {
     color: #FFF;
     font-family: "Dela Gothic One", sans-serif;
@@ -53,9 +54,12 @@ header h1 {
     flex-shrink: 0;
     position: relative;
     z-index: 1;
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
+   display: flex;
+   margin-left: 20px;
+   margin-bottom: -10px;
+   font-weight: 400;
+   line-height: 100%; /* 40px */
+    
 }
 
 #menu {
@@ -63,8 +67,69 @@ header h1 {
     height: 48px;
     flex-shrink: 0;
     z-index: 1;
-    position: absolute; /* Positionne le logo de manière absolue par rapport au header */
-    top: 60px; /* Décale le logo de 20px à partir du haut */
+    position: absolute;
+    top: 60px;
     left: auto;
-    right: 10px; /* Décale le logo de 10px à partir de la droite */
+    right: 10px;
+}
+
+header h2 {
+    color: #FFF;
+    font-family: "Oswalds";
+    font-size: 30px;
+    font-style: normal;
+    line-height: 100%;
+    width: 380px;
+    height: 1px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+   display: flex;
+   margin-left: 20px;
+   font-weight: 400;
+   line-height: 100%;
+    
+}
+@media (max-width: 600px) {
+    header h2 {
+        font-size: 25px; /* Rendre le texte plus petit sur les petits écrans */
+    }
+}
+}
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 40px; /* Rendre le texte plus petit sur les petits écrans */
+    }
+}
+
+#visit {
+    display: flex;
+    width: 35px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    z-index: 2;
+    position: absolute;
+    top: 585px;
+    left: 25px;
+    right: 330px;
+}
+header h3 {
+    color: #FFF;
+    font-family: "mulish";
+    font-size: 17px;
+    font-style: normal;
+    line-height: 100%;
+    width: 291px;
+    height: 1px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 570px;
+    left: 60px; /* Updated left position */
+    right: auto; /* Removed right position */
+    display: flex;
+    margin-left: 20px;
+    font-weight: 400;
+    line-height: 100%;
 }
