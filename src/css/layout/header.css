@@ -1,0 +1,20 @@
+header {
+    background-color: #0069d3; /* Couleur d'arrière-plan */
+    height: 60px; /* Hauteur du header */
+    display: flex; /* Utilise flexbox pour aligner les éléments */
+    justify-content: space-between; /* Espacement entre les éléments */
+    align-items: center; /* Alignement vertical des éléments */
+    padding: 0 10px; /* Padding à gauche et à droite */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1); /* Ombre portée */
+}
+
+header h1 {
+    margin: 0; /* Supprime les marges par défaut */
+    font-size: 24px; /* Taille de la police */
+}
+header {
+    background-image: url('chemin_vers_votre_image.jpg'); /* Remplacez 'chemin_vers_votre_image.jpg' par le chemin vers votre image */
+    background-size: cover; /* Ajuste l'image pour qu'elle couvre tout l'espace disponible */
+    background-position: center; /* Centre l'image */
+    /* ... autres propriétés ... */
+}
