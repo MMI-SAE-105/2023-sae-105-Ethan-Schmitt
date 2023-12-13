@@ -1,0 +1,20 @@
+<svg width="164" height="140" viewBox="0 0 164 140" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Element de d&#195;&#169;co">
+<mask id="mask0_2047_90" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="40" y="9" width="124" height="122">
+<path id="Polygon 1" d="M45.9836 17.5235L152.621 69.9312L46.0764 122.554L45.9836 17.5235Z" fill="#D9D9D9" stroke="black" stroke-width="10"/>
+</mask>
+<g mask="url(#mask0_2047_90)">
+<rect id="020_HotelRoofNight_ImagebyDbox-777x804 2" x="40.2739" y="10.0915" width="123.599" height="121.098" fill="url(#pattern0)"/>
+<rect id="Teinte bleue " x="33.3301" width="130.543" height="139.84" fill="url(#paint0_linear_2047_90)" fill-opacity="0.42"/>
+</g>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_2047_90" transform="matrix(0.001287 0 0 0.00136361 0 -0.0422182)"/>
+</pattern>
+<linearGradient id="paint0_linear_2047_90" x1="98.6015" y1="0" x2="98.6015" y2="139.84" gradientUnits="userSpaceOnUse">
+<stop stop-color="#800000"/>
+<stop offset="1" stop-color="#800000"/>
+</linearGradient>
+</defs>
+</svg>

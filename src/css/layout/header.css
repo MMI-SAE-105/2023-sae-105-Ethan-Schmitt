@@ -111,7 +111,7 @@ header h2 {
     flex-shrink: 0;
     z-index: 2;
     position: absolute;
-    top: 585px;
+    top: 565px;
     left: 25px;
     right: 330px;
 }
@@ -125,7 +125,7 @@ header h3 {
     height: 1px;
     flex-shrink: 0;
     position: absolute;
-    top: 570px;
+    top: 550px;
     left: 60px; /* Updated left position */
     right: auto; /* Removed right position */
     display: flex;
