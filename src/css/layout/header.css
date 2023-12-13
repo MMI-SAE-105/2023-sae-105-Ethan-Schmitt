@@ -18,6 +18,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    position: relative;
 }
 
 header::before {
@@ -31,7 +32,16 @@ header::before {
     background: rgba(1, 49, 180, 0.42);
     z-index: 0;
 }
-
+#logo {
+    width: 86px;
+    height: 92px;
+    flex-shrink: 0;
+    z-index: 1;
+    position: absolute; /* Positionne le logo de manière absolue par rapport au header */
+    top: 40px; /* Décale le logo de 20px à partir du haut */
+    left: 10px;
+    right: auto; /* Décale le logo de 10px à partir de la droite */
+}
 header h1 {
     color: #FFF;
     font-family: "Dela Gothic One", sans-serif;
@@ -43,4 +53,18 @@ header h1 {
     flex-shrink: 0;
     position: relative;
     z-index: 1;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#menu {
+    width: 60px;
+    height: 48px;
+    flex-shrink: 0;
+    z-index: 1;
+    position: absolute; /* Positionne le logo de manière absolue par rapport au header */
+    top: 60px; /* Décale le logo de 20px à partir du haut */
+    left: auto;
+    right: 10px; /* Décale le logo de 10px à partir de la droite */
 }
