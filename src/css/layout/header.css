@@ -1,19 +1,26 @@
 
 
 /* Ajoutez les importations manquantes ici */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 header {
-    background-image: url('../../../public/img/Images de fonds 1.webp');
+    background-image: url('/public/img/020_HotelRoofNight_ImagebyDbox-777x804.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     height: 100vh;
-    margin-top: -10px;
+    margin: 0;
+    position: relative;
+    border: none;
+    margin-top: -40px;
     margin-left: -10px;
     margin-right: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
-header::after {
+header::before {
     content: "";
     position: absolute;
     top: 0;
@@ -31,4 +38,9 @@ header h1 {
     font-size: 40px;
     font-style: normal;
     line-height: 100%;
+    width: 243px;
+    height: 88px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
 }
