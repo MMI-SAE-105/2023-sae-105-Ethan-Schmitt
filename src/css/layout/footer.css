@@ -14,18 +14,37 @@ footer p {
 }
 
 #lg {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
     width: 40px; /* Ajustez cette valeur pour modifier la taille des logos */
     height: auto;
-    align-items: center; /* Change align-items to center */
-    margin: auto; /* Ajoutez cette ligne pour centrer le logo horizontalement */
+    margin-left: auto; /* Ajoutez cette ligne pour centrer le logo horizontalement */
+    margin-right: 20px; /* Ajoutez cette ligne pour ajouter un espace de 20px à droite */
 }
+
+#lg1 {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    width: 40px; /* Ajustez cette valeur pour modifier la taille des logos */
+    height: auto;
+    margin-left: 20px; /* Ajoutez cette ligne pour ajouter un espace de 20px à gauche */
+    margin-right: 20px; /* Ajoutez cette ligne pour ajouter un espace de 20px à droite */
+}
+
+#lg2 {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    width: 40px; /* Ajustez cette valeur pour modifier la taille des logos */
+    height: auto;
+    margin-left: 20px; /* Ajoutez cette ligne pour ajouter un espace de 20px à gauche */
+    margin-right: auto; /* Ajoutez cette ligne pour centrer le logo horizontalement */
+}
+
 
 .footer-logos {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 418px;
-    margin-top: 10px;
 }
 
 .logo-container {
