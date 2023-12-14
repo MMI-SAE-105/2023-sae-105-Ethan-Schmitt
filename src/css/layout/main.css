@@ -99,10 +99,49 @@ main p, main ul {
     margin-right: auto;
     margin-top: 20px;
 }
+.container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 11px;
+    font-family: Mulish;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 17.60px;
+    letter-spacing: 1.10px;
+    word-wrap: break-word
+    align-items: center;
+}
+  
+  .left {
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  
+  .right {
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 10px;
+  }
 
-
-
-
+  .left, .right {
+    line-height: 2; /* Ajustez cette valeur pour modifier l'espacement entre les lignes */
+    /* autres styles... */
+}
+  #nume{
+    color: white;
+    font-size: 11px;
+    font-family: Dela Gothic One;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 17.60px;
+    letter-spacing: 1.10px;
+    word-wrap: break-word;
+    margin: 0 auto; /* Add this line to center the element horizontally */
+    text-align: center; /* Add this line to center the text inside the element */
+    margin-top: 30px;
+}
 
 
 
