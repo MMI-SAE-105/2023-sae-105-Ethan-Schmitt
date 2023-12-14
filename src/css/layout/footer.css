@@ -6,21 +6,66 @@ footer {
     margin-bottom: -19px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
 }
 
 footer p {
     /* ... */
 }
 
-#logofooter, #iut, #lg {
-    width: 50px; /* Ajustez cette valeur pour modifier la taille des logos */
+#lg {
+    width: 40px; /* Ajustez cette valeur pour modifier la taille des logos */
     height: auto;
+    align-items: center; /* Change align-items to center */
+    margin: auto; /* Ajoutez cette ligne pour centrer le logo horizontalement */
 }
 
 .footer-logos {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 300px; /* Ajustez cette valeur pour modifier l'espacement entre les logos */
+    max-width: 418px;
+    margin-top: 10px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+}
+
+#logofooter {
+    width: 86px; /* Ajustez cette valeur pour modifier la taille des logos */
+    height: 92px;
+}
+#iut {
+    width: 57px; /* Ajustez cette valeur pour modifier la taille des logos */
+    height: 40px;
+    margin-top: 18px;
+    margin-left: 206px
+    }
+
+#expo {
+    color: #FAFAFA;
+    font-size: 11px;
+    font-family: Dela Gothic One;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: 1.10px;
+    word-wrap: break-word;
+    margin-top: 27px;
+    
+}
+
+#suivi{
+    color: white;
+    font-size: 11px;
+    font-family: Dela Gothic One;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 17.60px;
+    letter-spacing: 1.10px;
+    word-wrap: break-word;
+    margin: auto; /* Add this line to center the element horizontally */
 }
