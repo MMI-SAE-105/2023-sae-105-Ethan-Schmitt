@@ -137,11 +137,7 @@ header h3 {
     line-height: 100%;
 }
 
-.logo-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .le {
     text-align: left;

@@ -37,9 +37,9 @@ main p, main ul {
     align-items: center;
     flex-shrink: 0;
     margin: 0 auto; /* Added margin property to center the barre */
-    margin-top: -10px;
+
     z-index: 1;
-    margin-top: 5px;
+    margin-top: -5px;
 }
 
 .center-text {
