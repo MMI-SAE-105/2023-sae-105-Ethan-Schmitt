@@ -95,12 +95,21 @@ header h2 {
         font-size: 25px; /* Rendre le texte plus petit sur les petits écrans */
     }
 }
-}
+
 @media (max-width: 600px) {
     header h1 {
         font-size: 40px; /* Rendre le texte plus petit sur les petits écrans */
     }
 }
+
+
+@media (max-width: 600px) {
+    header h3  {
+        font-size: 40px; /* Rendre le texte plus petit sur les petits écrans */
+    }
+}
+
+
 
 #visit {
     display: flex;

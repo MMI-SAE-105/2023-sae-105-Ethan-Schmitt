@@ -13,6 +13,7 @@ main h1, main h2 {
     line-height: 160%; /* 24px */
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    z-index: 1;
 }
 
 main p, main ul {
@@ -24,6 +25,7 @@ main p, main ul {
     line-height: 160%; /* 17.6px */
     letter-spacing: 1.1px;
     text-transform: uppercase;
+    z-index: 1;
     
 }
 
@@ -36,6 +38,7 @@ main p, main ul {
     flex-shrink: 0;
     margin: 0 auto; /* Added margin property to center the barre */
     margin-top: -10px;
+    z-index: 1;
 }
 
 .center-text {
@@ -44,16 +47,22 @@ main p, main ul {
 
 main ul {
     list-style-type: none;
+    z-index: 1;
 }
 
 #deco {
     width: 164px;
     height: 140px;
     flex-shrink: 0;
-    margin-left: 0; /* Move the element completely to the left */
+    margin-left: -50px; /* Move the element completely to the left */
     margin-right: auto; /* Allow the element to take up all available space on the right */
     margin-top: 10px;
     margin-bottom: 10px;
+    z-index: -2;
+    top: 1175px;
+    left: 3px;
+    right: 330px;
+    position: absolute;
 }
 
 
@@ -63,6 +72,7 @@ main ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 
