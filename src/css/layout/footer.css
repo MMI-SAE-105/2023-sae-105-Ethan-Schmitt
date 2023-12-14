@@ -1,0 +1,26 @@
+footer {
+    background-color: #2F2F2F;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -12px;
+    margin-bottom: -19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    /* ... */
+}
+
+#logofooter, #iut, #lg {
+    width: 50px; /* Ajustez cette valeur pour modifier la taille des logos */
+    height: auto;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px; /* Ajustez cette valeur pour modifier l'espacement entre les logos */
+}
