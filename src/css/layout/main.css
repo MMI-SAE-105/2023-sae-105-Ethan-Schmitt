@@ -39,6 +39,7 @@ main p, main ul {
     margin: 0 auto; /* Added margin property to center the barre */
     margin-top: -10px;
     z-index: 1;
+    margin-top: 5px;
 }
 
 .center-text {
@@ -70,16 +71,20 @@ main p, main ul {
 
 
 #bouton {
-    deight: auto;
+    display: block;
+    margin: auto;
+    width: auto; /* Modifier la largeur automatiquement */
+    height: auto;
+    margin-top: 20px;
 }
 
 #bouton2 {
     display: block;
-    margin-left: 0;
-    margin-right: auto;
-    width: 25%; /* Ajustez cette valeur pour modifier la taille des boutons */
+    margin: auto; /* Centrer horizontalement */
+    width: auto; /* Modifier la largeur automatiquement */
     height: auto;
     clear: both;
+    margin-top: 20px;
 }
 
 .container {
@@ -90,36 +95,10 @@ main p, main ul {
 #richard1, #richard2 {
     width: 40%; /* Ajustez cette valeur pour modifier la taille des images */
     height: auto;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-}
-
-
-
-
-#bouton2 {
-    display: block;
-    margin-left: 0;
+    margin-left: auto;
     margin-right: auto;
-    width: 25%; /* Ajustez cette valeur pour modifier la taille des boutons */
-    height: auto;
-    clear: both;
+    margin-top: 20px;
 }
-
-.container {
-    display: flex;
-    justify-content: space-between; /* Pour ajouter de l'espace entre les images */
-}
-
-#richard1, #richard2 {
-    width: 40%; /* Ajustez cette valeur pour modifier la taille des images */
-    height: auto;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-}
-
 
 
 
