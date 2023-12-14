@@ -93,7 +93,7 @@ main p, main ul {
 }
 
 #richard1, #richard2 {
-    width: 40%; /* Ajustez cette valeur pour modifier la taille des images */
+    width: 170px; /* Ajustez cette valeur pour modifier la taille des images */
     height: auto;
     margin-left: auto;
     margin-right: auto;
