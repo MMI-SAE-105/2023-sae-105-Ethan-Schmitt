@@ -15,13 +15,18 @@
 
 </head>
 <body>
-    <header x-data="{ isOpen: false }">  
+    <header x-data="{ isOpen: false, isSubOpen: false }">  
         <img src="public/img/Logo du site 1.png" alt="logo" id="logo">
         <button @click="isOpen = !isOpen"> <img src="public/img/Menu.png" alt="menu" id="menu"></button>
     <nav x-show="isOpen" @click.away="isOpen = false" x-transition.duration.800ms class="halouil">
        <ul>
             <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
+            <li @click="isSubOpen = !isSubOpen">
+                <a href="#section2">Section 2</a></li>
+            <ul x-show="isSubOpen" @click.away="isSubOpen = false">
+                <li><a href="#subSection1">Sous-section 1</a></li>
+                <li><a href="#subSection2">Sous-section 2</a></li>
+            </ul>
             <li><a href="#section3">Section 3</a></li>
             <li><a href="#section4">Section 4</a></li>
         </ul>
