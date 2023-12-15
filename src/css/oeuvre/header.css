@@ -141,8 +141,8 @@ header h3 {
 
 .le {
     text-align: left;
-    margin-left: 52px;
-    margin-top: 37px;
+    margin-left: 53px;
+    margin-top: 48px;
   }
   
   .ri {
@@ -191,9 +191,8 @@ li  {
     margin: 20px 0; 
 }
 
-li2{
-    margin: 10px
-  
+#li2{
+    margin: 6px;
 }
 
 #fet {
@@ -214,7 +213,7 @@ li2{
     color: #FFF;
     text-align: center;
     font-family: Oswald;
-    font-size: 19px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 25px */

@@ -153,7 +153,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; 
+  width: 300px; 
   position: relative;
 
   /* Ajout des styles pour le cadre */
@@ -169,14 +169,14 @@ img {
     min(500px, 100vw) / 16 * 9 / 2 + 1rem
   ); /* centre verticalement ~50% vertical */
   transform: translateY(-50%); /* methode du point mort */
-  width: 3rem;
-  height: 3rem;
-  background: #B9861F;
+  width: 2rem;
+  height: 2rem;
+  background: #ffffff;
   border-radius: 60%;
   border: none;
   display: grid;
   place-content: center;
-  color: #000000;
+  color: ##0131B4;
   position: absolute;
   top: 50%; /* Centrer verticalement */
   transform: translateY(-50%);
@@ -201,7 +201,7 @@ img {
 
 
 h1 {
-  color: #B9861F; /* Remplacez #fff par la couleur que vous voulez pour le texte */
+  color: #0131B4; /* Remplacez #fff par la couleur que vous voulez pour le texte */
   font-family: 'Roboto', sans-serif; /* Ajout de la police de caractères */
 }
 
@@ -211,12 +211,12 @@ h1 {
 
 /* Change la couleur de fond de la barre de défilement */
 .carrousel_parent-ecrans::-webkit-scrollbar-track {
-  background: #575757;
+  background: #000000;
 }
 
 /* Change la couleur du curseur de la barre de défilement */
 .carrousel_parent-ecrans::-webkit-scrollbar-thumb {
-  background: #B9861F;
+  background: #0131B4;
 }
 
 /* Change la couleur du curseur de la barre de défilement lors du survol */
@@ -241,5 +241,10 @@ h1 {
 .caroussel_liste-liens button a {
   color: rgb(255, 255, 255); /* Changer la couleur du texte */
   text-decoration: none;
+}
+.carrousel_parent-ecrans img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* ajoutez cette ligne */
 }
 
