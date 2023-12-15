@@ -116,13 +116,13 @@ footer {
 
 .left {
   text-align: left;
-  margin-left: 94px;
+  margin-left: 40px;
   margin-top: 10px;
 }
 
 .right {
   text-align: right;
-  margin-right: 94px;
+  margin-right: 40px;
   margin-top: 10px;
 }
 
@@ -200,3 +200,5 @@ footer {
       line-height: 12px;
       word-wrap: break-word
     }
+    
+    
