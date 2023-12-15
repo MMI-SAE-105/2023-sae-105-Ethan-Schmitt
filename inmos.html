@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lloyd’s Building</title>
+    <link rel="stylesheet" href="src/css/oeuvre/header.css">
+    <link rel="stylesheet" href="src/css/oeuvre/main.css">
+    <link rel="stylesheet" href="src/css/biographie/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/Dela+Gothic+One?query=Dela+Gothic" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+    <header x-data="{ isOpen: false, isSubOpen: false }">  
+        <a href="index.html">
+            <img src="public/img/Logo du site 1.png" alt="logo" id="logo">
+        </a>
+        <button @click="isOpen = !isOpen"> <img src="public/img/Menu.png" alt="menu" id="menu"></button>
+    <nav x-show="isOpen" @click.away="isOpen = false" x-transition.duration.800ms class="halouil">
+       <ul>
+            <img src="public/img/Logo du site 1.png" alt="fet" id="fet">
+        <li><a href="biographie.html" id="dlc">Biographie de Richard Rogers</a></li>
+            <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
+            <li @click="isSubOpen = !isSubOpen">
+                <a href="#section2" id="dlc">Œuvres principales</a></li>
+            <ul x-show="isSubOpen" @click.away="isSubOpen = false"  x-transition.duration.800ms>
+                <li id="li2"><a href="reliance.html" id="dlc2">Reliance Controls, Swindon</a></li>
+                    <br>
+                    <li id="li2"><a href="centre.html" id="dlc2">Centre Georges Pompidou, Paris</a></li>
+                    <br>
+                    <li id="li2"><a href="#subSection4" id="dlc2">Lloyd’s Building, Londres</a></li>
+                      <br>
+                      <li id="li2"><a href="#subSection5" id="dlc2">Inmos Microprocessor Factory</a></li>
+                        <br>
+                        <li id="li2"><a href="#subSection6" id="dlc2">Dôme du Millénaire, Londres</a></li>
+                          <br>
+                          <li id="li2"><a href="#subSection8" id="dlc2">Palais de justice d’Anvers</a></li>
+                            <br>
+                            <li id="li2"><a href="#subSection9" id="dlc2">Three World Trade Center, New York</a></li>
+                </ul>
+            <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
+                <li><a href="#section3" id="dlc">Frise chronologique</a></li>
+            <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
+            <li><a href="#section4" id="dlc">Contact</a></li>
+            <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
+            <li><a href="#section5" id="dlc">Billetterie</a></li>
+    </nav>
+        <h1>Lloyd’s Building</h1>
+        <h2>By Richard Rogers</h2>
+        <img src="public/img/Barre de style blanc.png" alt="bar" id="ba">
+        <div class="visit">
+          <div class="le">
+              <h3>LONDRES, ANGLETERRE, ROYAUME-UNI</h3>
+          </div>
+          <div class="ri">
+          <img src="public/img/Visit.png" alt="visit" id="visit">
+      </header>
+    <main> 
+            <h1>Description</h1>
+            <img src="public/img/Barre de style.png" alt="barre" id="barre">
+            <p>Le Lloyd’s Building est le siège de la Lloyd’s of London. Il a été conçu par l’architecte Richard Rogers et construit entre 1978 et 19861. Situé dans le cœur économique de la « London City », la tour s’élève Lloyd, conçu pour l’une des plus grandes sociétés d’assurance dans le monde1.
+             <br> La configuration inhabituelle du bâtiment est le résultat de son emplacement dans le schéma de la rue médiévale et la philosophie irrégulière composée de l’architecte que le bâtiment devrait apparaître à être monté dans un « kit de pièces »1. Tous les détails de la structure sont entièrement sur l’écran, donnant au spectateur une simple compréhension de la façon de soutenir la construction1.</p>
+            <h2>Caractéristiques</h2>
+            <img src="public/img/Barre de style.png" alt="barre" id="barre">
+            <ul>
+                <li>Architecte : Richard Rogers</li>
+                <li>Année de Construction : 1978-1986</li>
+                <li>Hauteur : 76 m</li>
+                <li>Étages : 14</li>
+                <li>Ascenseurs : 12</li>
+                <li>Surface Construite : 40.000 m2</li>
+                <li>Emplacement : Londres, Angleterre, Royaume-Uni1</li>
+            </ul>
+            
+            <div class="carrousel" x-data="{hrefCourant: '#ecran-1',}">
+                <button @click="parent = $refs.parent ; parent.scrollLeft -= parent.clientWidth"
+                    class="carrousel_btn carrousel_btn-avant" aria-label="slideprécedant">
+                    &lt;
+                </button>
+                <button @click="parent = $refs.parent ; parent.scrollLeft += parent.clientWidth"
+                    class="carrousel_btn carrousel_btn-apres" aria-label="slidesuivant">></button>
+                <div class="carrousel_parent-ecrans" x-ref="parent">
+                    <div id="ecran-1" class="carrousel_ecran">
+                        <figure>
+                            <img src="public/img/lloyds-building-richard-rogers-partners-high-tech-architecture_dezeen_1704_col_3-1.webp" alt="image ecran 1">
+                            
+                        </figure>
+                    </div>
+                    <div id="ecran-2" class="carrousel_ecran">
+                        <figure>
+                            <img src="public/img/Lloyds.webp">
+                       </figure>
+                    </div>
+                    <div id="ecran-3" class="carrousel_ecran">
+                        <figure>
+                            <img src="public/img/OIP.webp" alt="image ecran 3">
+                           
+                        </figure>
+                </div>
+            </div>
+       </main>
+            <footer>
+                <div class="logo-container">
+                <img src="public/img/Logo du site 1.png" alt="logo" id="logofooter">
+                <p id="expo">Expo <br>Rogers</p>        
+                <img src="public/img/logo-iut.png" alt="iut" id="iut">
+                </div>
+                <p id="suivi">suivez-nous</p>
+                <div class="footer-logos">
+                    <a href="https://www.instagram.com">
+                      <img src="public/img/instagram.png" alt="insta" id="lg">
+                    </a>
+                    <a href="https://www.twitter.com">
+                      <img src="public/img/TwitterX.png" alt="twitter" id="lg1">
+                    </a>
+                    <a href="https://www.tiktok.com">
+                      <img src="public/img/TikTok.png" alt="tiktok" id="lg2">
+                    </a>
+                </div>
+                <p id="nume">MENU</p>
+                <div class="container">
+                    <div class="left">
+                      BIOGRAPHIE<br>
+                      Œuvres principales<br>
+                      Frise chronologique
+                    </div>
+                    <div class="right">
+                      CONTACT<br>
+                      Mentions légales<br>
+                      BILLETTERIE
+                    </div>
+                  </div>
+                  <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
+                <div class="container2">
+                    <div class="left2">
+                    <img src="public/img/Visit.png" alt="visit" id="vecteur">
+                    </div>
+                    <div class="right2">
+                      <p>Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+                    </div>
+                  </div>
+                  <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
+            <div class="container3">
+                    <div class="left3">
+                      <p>© 2023 Expo Rogers. Tous droits réservés.</p>
+                    </div>
+                  </div>
+                </footer>
+</body>
+</html>
