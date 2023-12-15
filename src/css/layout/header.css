@@ -205,7 +205,7 @@ li2{
     align-items: center;
     flex-shrink: 0;
     position: absolute;
-    top: 182px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
