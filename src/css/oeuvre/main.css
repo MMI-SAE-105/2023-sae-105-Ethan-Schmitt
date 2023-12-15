@@ -1,0 +1,246 @@
+body {
+background-color:#FEFEE2 ;
+
+}
+
+main h1, main h2, main h3, main h4, main h5{
+    color: #000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold; /* Added font-weight property */
+    line-height: 160%; /* 24px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+main p, main ul {
+    color: #000;
+    font-family: 'Mulish', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 17.6px */
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    z-index: 1;
+    
+}
+
+#barre {
+    display: flex;
+    width: 297px;
+    height: 2px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0 auto; /* Added margin property to center the barre */
+
+    z-index: 1;
+    margin-top: -5px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+
+#deco {
+    width: 144px;
+    height: 120px;
+    flex-shrink: 0;
+    margin-left: -50px; /* Move the element completely to the left */
+    margin-right: auto; /* Allow the element to take up all available space on the right */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    z-index: -2;
+    top: 1px;
+    left: 3px;
+    right: 330px;
+    position: fixed;
+    
+}
+
+.dashed-p::before {
+    content: "- ";
+    font-size: 20px;
+}
+
+
+#bouton {
+    display: block;
+    margin: auto;
+    width: auto; /* Modifier la largeur automatiquement */
+    height: auto;
+    margin-top: 20px;
+}
+
+#bouton2 {
+    display: block;
+    margin: auto; /* Centrer horizontalement */
+    width: auto; /* Modifier la largeur automatiquement */
+    height: auto;
+    clear: both;
+    margin-top: 20px;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-between; /* Pour ajouter de l'espace entre les images */
+}
+
+#n{
+    width: 114px; /* Ajustez cette valeur pour modifier la taille des images */
+    height: 90px;
+    margin-left: -38px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#n1{
+    width: 114px; /* Ajustez cette valeur pour modifier la taille des images */
+    height: auto;
+    margin-left: c;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#n2 {
+    width: 81px; /* Ajustez cette valeur pour modifier la taille des images */
+    height: 89px;
+    margin-left: 10px;
+    margin-right: -12px;
+    margin-top: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Correction des sélecteurs */
+img {
+  /* image responsive, largeur maxi */
+  /* hauteur "auto" */
+  max-width: 100%;
+  height: auto;
+}
+
+.carrousel_parent-ecrans {
+  /* aligne horizontalement les enfants */
+  /* largeur du parent */
+  display: flex;
+  width: 100%;
+  overflow-x: scroll; /* permet de scroller horizontalement */
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.carrousel_ecran { 
+  /* largeur du parent pour chaque enfant */
+  /* permet de garder toute la largeur du parent */
+  width: 100%;
+  flex: none; 
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrousel_ecran figure {
+  /* enlève les marges par défaut */
+  margin: 0;
+}
+
+.carrousel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+  position: relative;
+
+  /* Ajout des styles pour le cadre */
+  border: 5px solid #000; /* Remplacez #000 par la couleur que vous voulez pour le cadre */
+  border-radius: 10px; /* Remplacez 10px par la valeur que vous voulez pour arrondir les coins */
+  box-shadow:  10 10px rgba(0, 0, 0, 0.5); /* Remplacez les valeurs pour ajuster l'ombre */
+}
+
+.carrousel_btn {
+  position: absolute;
+  top: 50%;
+  top: calc(
+    min(500px, 100vw) / 16 * 9 / 2 + 1rem
+  ); /* centre verticalement ~50% vertical */
+  transform: translateY(-50%); /* methode du point mort */
+  width: 3rem;
+  height: 3rem;
+  background: #B9861F;
+  border-radius: 60%;
+  border: none;
+  display: grid;
+  place-content: center;
+  color: #000000;
+  position: absolute;
+  top: 50%; /* Centrer verticalement */
+  transform: translateY(-50%);
+}
+
+.carrousel_btn-avant {
+  left: 10px;
+}
+
+.carrousel_btn-apres {
+  right: 10px;
+}
+
+.caroussel_liste-liens {
+  display: flex; /* aligne horizontalement les enfants */
+  justify-content: center; /* centre horizontalement les enfants */
+  margin: 0; /* enlève les marges par défaut */
+  padding: 0; /* enlève les padding par défaut */
+  list-style: none; /* enlève les puces par défaut */
+  gap: 10px; /* espace entre les enfants */
+}
+
+
+h1 {
+  color: #B9861F; /* Remplacez #fff par la couleur que vous voulez pour le texte */
+  font-family: 'Roboto', sans-serif; /* Ajout de la police de caractères */
+}
+
+.carrousel_parent-ecrans::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Change la couleur de fond de la barre de défilement */
+.carrousel_parent-ecrans::-webkit-scrollbar-track {
+  background: #575757;
+}
+
+/* Change la couleur du curseur de la barre de défilement */
+.carrousel_parent-ecrans::-webkit-scrollbar-thumb {
+  background: #B9861F;
+}
+
+/* Change la couleur du curseur de la barre de défilement lors du survol */
+.carrousel_parent-ecrans::-webkit-scrollbar-thumb:hover {
+  background: #755412;
+}
+.caroussel_liste-liens button {
+  background-color: #343434; /* Changer la couleur de fond */
+  color: white; /* Changer la couleur du texte */
+  font-family: Arial, sans-serif; /* Changer la police */
+  font-size: 16px; /* Changer la taille du texte */
+  padding: 7px 7px; /* Changer l'espacement interne */
+  border: none; /* Enlever les bordures */
+  border-radius: 5px; /* Arrondir les coins */
+  cursor: pointer; /* Changer le curseur en main lors du survol */
+}
+
+/* Changer le style lors du survol */
+.caroussel_liste-liens button:hover  {
+  background-color: #B9861F; /* Changer la couleur de fond */
+}
+.caroussel_liste-liens button a {
+  color: rgb(255, 255, 255); /* Changer la couleur du texte */
+  text-decoration: none;
+}
+
