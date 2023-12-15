@@ -1,0 +1,204 @@
+footer {
+  background-color: #2F2F2F;
+  margin-top: 10px;
+  margin-left: -10px;
+  margin-right: -12px;
+  margin-bottom: -30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+
+
+#lg {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  width: 40px; /* Ajustez cette valeur pour modifier la taille des logos */
+  height: auto;
+  margin-left: auto; /* Ajoutez cette ligne pour centrer le logo horizontalement */
+  margin-right: 20px; /* Ajoutez cette ligne pour ajouter un espace de 20px à droite */
+}
+
+#lg1 {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  width: 40px; /* Ajustez cette valeur pour modifier la taille des logos */
+  height: auto;
+  margin-left: 20px; /* Ajoutez cette ligne pour ajouter un espace de 20px à gauche */
+  margin-right: 20px; /* Ajoutez cette ligne pour ajouter un espace de 20px à droite */
+}
+
+#lg2 {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  width: 40px; /* Ajustez cette valeur pour modifier la taille des logos */
+  height: auto;
+  margin-left: 20px; /* Ajoutez cette ligne pour ajouter un espace de 20px à gauche */
+  margin-right: auto; /* Ajoutez cette ligne pour centrer le logo horizontalement */
+}
+
+
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+}
+
+#logofooter {
+  width: 86px; /* Ajustez cette valeur pour modifier la taille des logos */
+  height: 92px;
+}
+#iut {
+  width: 57px; /* Ajustez cette valeur pour modifier la taille des logos */
+  height: 40px;
+  margin-top: 18px;
+  margin-left: auto
+  }
+
+#expo {
+  color: #FAFAFA;
+  font-size: 11px;
+  font-family: Dela Gothic One;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 15px;
+  letter-spacing: 1.10px;
+  word-wrap: break-word;
+  margin-top: 27px;
+  
+}
+
+#suivi{
+  color: white;
+  font-size: 11px;
+  font-family: Dela Gothic One;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 17.60px;
+  letter-spacing: 1.10px;
+  word-wrap: break-word;
+  margin: auto; /* Add this line to center the element horizontally */
+}
+
+#bar {
+  display: flex;
+  width: 297px;
+  height: 2px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin: 0 auto; /* Added margin property to center the barre */
+  margin-top: -10px;
+  z-index: 1;
+  margin-top: 5px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(178, 178, 178);
+  font-size: 11px;
+  font-family: Mulish;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 17.60px;
+  letter-spacing: 1.10px;
+  word-wrap: break-word
+  align-items: center;
+}
+
+.left {
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.right {
+  text-align: right;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.left, .right {
+  line-height: 2; /* Ajustez cette valeur pour modifier l'espacement entre les lignes */
+  /* autres styles... */
+}
+#nume{
+  color: white;
+  font-size: 11px;
+  font-family: Dela Gothic One;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 17.60px;
+  letter-spacing: 1.10px;
+  word-wrap: break-word;
+  margin: 0 auto; /* Add this line to center the element horizontally */
+  text-align: center; /* Add this line to center the text inside the element */
+  margin-top: 30px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left2 {
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  width: 24px;
+  height: 26px
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.right2 {
+  text-align: right;
+  margin-right: 55px;
+  margin-top: 5px;
+  color: white;
+  font-size: 12px;
+  font-family: Mulish;
+  font-weight: 400;
+  line-height: 12px;
+  word-wrap: break-word
+}
+#vecteur {
+  display: flex;
+  width: 24px;
+  height: 26px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+  position: absolute;
+  margin-left: -9px;
+}
+
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left3 {
+      text-align: right;
+      margin-top: 5px;
+      color: white;
+      font-size: 9px;
+      font-family: Mulish;
+      font-weight: 400;
+      line-height: 12px;
+      word-wrap: break-word
+    }
+    
+    

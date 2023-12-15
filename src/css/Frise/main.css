@@ -1,0 +1,117 @@
+body {
+background-color:#FEFEE2 ;
+
+}
+
+main h1, main h2, main h3, main h4, main h5{
+    color: #000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold; /* Added font-weight property */
+    line-height: 160%; /* 24px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+main p, main ul {
+    color: #000;
+    font-family: 'Mulish', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 17.6px */
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    z-index: 1;
+    
+}
+
+#barre {
+    display: flex;
+    width: 297px;
+    height: 2px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0 auto; /* Added margin property to center the barre */
+
+    z-index: 1;
+    margin-top: -5px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+
+#deco {
+    width: 144px;
+    height: 120px;
+    flex-shrink: 0;
+    margin-left: -50px; /* Move the element completely to the left */
+    margin-right: auto; /* Allow the element to take up all available space on the right */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    z-index: -2;
+    top: 1px;
+    left: 3px;
+    right: 330px;
+    position: fixed;
+    
+}
+
+.dashed-p::before {
+    content: "- ";
+    font-size: 20px;
+}
+
+
+#bouton {
+    display: block;
+    margin: auto;
+    width: auto; /* Modifier la largeur automatiquement */
+    height: auto;
+    margin-top: 20px;
+}
+
+#bouton2 {
+    display: block;
+    margin: auto; /* Centrer horizontalement */
+    width: auto; /* Modifier la largeur automatiquement */
+    height: auto;
+    clear: both;
+    margin-top: 20px;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-between; /* Pour ajouter de l'espace entre les images */
+}
+
+#n{
+    width: 114px; /* Ajustez cette valeur pour modifier la taille des images */
+    height: 90px;
+    margin-left: -38px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#n1{
+    width: 114px; /* Ajustez cette valeur pour modifier la taille des images */
+    height: auto;
+    margin-left: c;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#n2 {
+    width: 81px; /* Ajustez cette valeur pour modifier la taille des images */
+    height: 89px;
+    margin-left: 10px;
+    margin-right: -12px;
+    margin-top: 20px;
+}
+
+

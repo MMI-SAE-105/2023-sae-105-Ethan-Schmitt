@@ -1,0 +1,234 @@
+
+/* Ajoutez les importations manquantes ici */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+header {
+    background-image: url('/public/img/photo-1541418610316-6fbb40925852.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    border: none;
+    margin-top: -40px;
+    margin-left: -10px;
+    margin-right: -12px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50.23%, #FFF 146.44%);
+    background: rgba(1, 49, 180, 0.42);
+    z-index: 0;
+}
+
+#logo {
+    width: 86px;
+    height: 92px;
+    flex-shrink: 0;
+    z-index: 1;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    right: auto;
+}
+
+header h1 {
+    color: #FFF;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 100%;
+    width: 243px;
+    height: 88px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+   display: flex;
+   margin-left: 20px;
+   margin-bottom: -10px;
+   font-weight: 400;
+   line-height: 100%; /* 40px */
+    
+}
+
+#menu {
+    width: 60px;
+    height: 48px;
+    flex-shrink: 0;
+    z-index: 120;
+    position: absolute;
+    top: 60px;
+    left: auto;
+    right: 10px;
+}
+
+header h2 {
+    color: #FFF;
+    font-family: "Oswalds";
+    font-size: 30px;
+    font-style: normal;
+    line-height: 100%;
+    width: 380px;
+    height: 1px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+   display: flex;
+   margin-left: 20px;
+   font-weight: 400;
+   line-height: 100%;
+    
+}
+@media (max-width: 600px) {
+    header h2 {
+        font-size: 25px; /* Rendre le texte plus petit sur les petits écrans */
+    }
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 40px; /* Rendre le texte plus petit sur les petits écrans */
+    }
+}
+
+
+@media (max-width: 600px) {
+    header h3  {
+        font-size: 40px; /* Rendre le texte plus petit sur les petits écrans */
+    }
+}
+
+
+
+#visit {
+    display: flex;
+    width: 35px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    z-index: 2;
+    position: absolute;
+   
+}
+header h3 {
+    color: #FFF;
+    font-family: "mulish", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 100%;
+    width: 291px;
+    height: 1px;
+    flex-shrink: 0;
+    position: absolute;
+    display: flex;
+    line-height: 100%;
+}
+
+
+
+.le {
+    text-align: left;
+    margin-left: 52px;
+    margin-top: 37px;
+  }
+  
+  .ri {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+
+  .halouil{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #753030;
+    display: grid;
+    place-content: center;
+    z-index: 100    ;
+  }
+  .header_menuBtn {
+    position: relative;
+    z-index: 100;
+  }
+  .noscroll,
+  .noscroll body {
+     overflow: hidden;
+  }
+  
+  button {
+    background-color: transparent; /* rend le bouton transparent */
+    border: none; /* supprime la bordure */
+}
+#dlc{
+    color: #FFF;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 25px */
+    text-decoration: none; /* enlève le soulignement */
+}
+
+li  {
+    list-style: none; /* enlève les points */
+    margin: 20px 0; 
+}
+
+#li2{
+    margin: 6px
+  
+}
+
+#fet {
+    display: flex;
+    width: 123px;
+    height: 127px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#dlc2{
+    color: #FFF;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 25px */
+    text-decoration: none; /* enlève le soulignement */
+}
+
+
+#ba {
+    display: flex;
+    width: 297px;
+    height: 2px;
+    flex-shrink: 0;
+    z-index: 3;
+    margin-top: 10px;
+    margin-left: 20px;
+}
