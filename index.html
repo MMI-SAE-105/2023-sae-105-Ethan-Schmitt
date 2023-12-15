@@ -12,12 +12,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <link href="https://fonts.google.com/specimen/Dela+Gothic+One?query=Dela+Gothic" rel="stylesheet">
     <script defer src="https://unpkg.com/alpinejs"></script>
+
 </head>
 <body>
-    <header>  
+    <header x-data="{ isOpen: false }">  
         <img src="public/img/Logo du site 1.png" alt="logo" id="logo">
-        <img src="public/img/Menu.png" alt="menu" id="menu">
-        
+        <button @click="isOpen = !isOpen"> <img src="public/img/Menu.png" alt="menu" id="menu"></button>
+    <nav x-show="isOpen" @click.away="isOpen = false" x-transition.duration.800ms class="halouil">
+       <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+            <li><a href="#section4">Section 4</a></li>
+        </ul>
+    </nav>
        
         <h1>Expo Rogers</h1>
         <h2>Exposition du 13 avril au 23 juin 2024</h2>
