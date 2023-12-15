@@ -175,3 +175,34 @@ header h3 {
     background-color: transparent; /* rend le bouton transparent */
     border: none; /* supprime la bordure */
 }
+#dlc{
+    color: #FFF;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 25px */
+    text-decoration: none; /* enlève le soulignement */
+}
+
+li {
+    list-style: none; /* enlève les points */
+    margin: 20px 0; 
+}
+
+#fet {
+    display: flex;
+    width: 123px;
+    height: 127px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    position: absolute;
+    top: 182px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#dco

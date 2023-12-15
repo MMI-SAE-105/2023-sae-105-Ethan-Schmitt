@@ -20,15 +20,21 @@
         <button @click="isOpen = !isOpen"> <img src="public/img/Menu.png" alt="menu" id="menu"></button>
     <nav x-show="isOpen" @click.away="isOpen = false" x-transition.duration.800ms class="halouil">
        <ul>
-            <li><a href="#section1">Section 1</a></li>
+            <img src="public/img/Logo du site 1.png" alt="fet" id="fet">
+        <li><a href="#section1" id="dlc">Section 1</a></li>
+            <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
             <li @click="isSubOpen = !isSubOpen">
-                <a href="#section2">Section 2</a></li>
+                <a href="#section2" id="dlc">Section 2</a></li>
             <ul x-show="isSubOpen" @click.away="isSubOpen = false">
-                <li><a href="#subSection1">Sous-section 1</a></li>
-                <li><a href="#subSection2">Sous-section 2</a></li>
-            </ul>
-            <li><a href="#section3">Section 3</a></li>
-            <li><a href="#section4">Section 4</a></li>
+                <li><a href="#subSection1" id="dlc">Sous-section 1</a></li>
+                <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
+                <li><a href="#subSection2" id="dlc">Sous-section 2</a></li>
+                </ul>
+              <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
+              <li><a href="#section3" id="dlc">Section 3</a></li>
+            <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
+            <li><a href="#section4" id="dlc">Section 4</a></li>
+            <img src="public/img/element-de-dco.png" alt="dco" id="dco">
         </ul>
     </nav>
        
