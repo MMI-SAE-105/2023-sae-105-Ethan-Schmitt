@@ -221,3 +221,14 @@ li2{
     line-height: 100%; /* 25px */
     text-decoration: none; /* enlève le soulignement */
 }
+
+
+#ba {
+    display: flex;
+    width: 297px;
+    height: 2px;
+    flex-shrink: 0;
+    z-index: 3;
+    margin-top: 10px;
+    margin-left: 20px;
+}
