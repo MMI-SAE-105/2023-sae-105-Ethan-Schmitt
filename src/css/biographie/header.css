@@ -16,8 +16,9 @@ header {
     margin-right: -12px;
     display: flex;
     flex-direction: column;
-    
+    padding: 0;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 header::before {
