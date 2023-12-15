@@ -186,9 +186,14 @@ header h3 {
     text-decoration: none; /* enlève le soulignement */
 }
 
-li {
+li  {
     list-style: none; /* enlève les points */
     margin: 20px 0; 
+}
+
+li2{
+    margin: 10px
+  
 }
 
 #fet {
@@ -205,4 +210,13 @@ li {
     transform: translate(-50%, -50%);
 }
 
-#dco
+#dlc2{
+    color: #FFF;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 25px */
+    text-decoration: none; /* enlève le soulignement */
+}

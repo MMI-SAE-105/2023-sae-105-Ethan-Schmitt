@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expo Rogers</title>
+    <link rel="stylesheet" href="src/css/layout/header.css">
+    <link rel="stylesheet" href="src/css/layout/main.css">
+    <link rel="stylesheet" href="src/css/layout/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/Dela+Gothic+One?query=Dela+Gothic" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+
+</head>
+<body>
+    <header x-data="{ isOpen: false, isSubOpen: false }">  
+        <img src="public/img/Logo du site 1.png" alt="logo" id="logo">
+        <button @click="isOpen = !isOpen"> <img src="public/img/Menu.png" alt="menu" id="menu"></button>
+    <nav x-show="isOpen" @click.away="isOpen = false" x-transition.duration.800ms class="halouil">
+       <ul>
+            <img src="public/img/Logo du site 1.png" alt="fet" id="fet">
+        <li><a href="#section1" id="dlc">Biographie de Richard Rogers</a></li>
+            <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
+            <li @click="isSubOpen = !isSubOpen">
+                <a href="#section2" id="dlc">Œuvres principales</a></li>
+            <ul x-show="isSubOpen" @click.away="isSubOpen = false">
+                <li2><a href="#subSection1" id="dlc2">Sous-section 1</a></li>
+                <br>
+                <li2><a href="#subSection3" id="dlc2">Sous-section 2</a></li>
+                <br>
+                <li2><a href="#subSection4" id="dlc2">Sous-section 2</a></li>
+                  <br>
+                  <li2><a href="#subSection5" id="dlc2">Sous-section 2</a></li>
+                    <br>
+                    <li2><a href="#subSection6" id="dlc2">Sous-section 2</a></li>
+                      <br>
+                      <li2><a href="#subSection8" id="dlc2">Sous-section 2</a></li>
+                        <br>
+                        <li2><a href="#subSection9" id="dlc2">Sous-section 2</a></li>
+                </ul>
+            <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
+                <li><a href="#section3" id="dlc">Frise chronologique</a></li>
+            <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
+            <li><a href="#section4" id="dlc">Contact</a></li>
+            <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
+            <li><a href="#section5" id="dlc">Billetterie</a></li>
+    </nav>
+       
+        <h1>Expo Rogers</h1>
+        <h2>Exposition du 13 avril au 23 juin 2024</h2>
+        <div class="visit">
+            <div class="le">
+                <h3>Fondation Cartier, 261 Bd Raspail, 75014 Paris</h3>
+            </div>
+            <div class="ri">
+            <img src="public/img/Visit.png" alt="visit" id="visit">
+            </div>
+        </div>
+        </header>
+    </body>
+    </html>
