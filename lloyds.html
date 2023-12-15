@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <link href="https://fonts.google.com/specimen/Dela+Gothic+One?query=Dela+Gothic" rel="stylesheet">
     <script defer src="https://unpkg.com/alpinejs"></script>
-
 </head>
 <body>
     <header x-data="{ isOpen: false, isSubOpen: false }">  
@@ -27,19 +26,19 @@
             <li @click="isSubOpen = !isSubOpen">
                 <a href="#section2" id="dlc">Œuvres principales</a></li>
             <ul x-show="isSubOpen" @click.away="isSubOpen = false">
-                <li2><a href="reliance.html" id="dlc2">Reliance Controls, Swindon</a></li>
+                <li><a href="reliance.html" id="dlc2">Reliance Controls, Swindon</a></li>
                     <br>
-                    <li2><a href="centre.html" id="dlc2">Centre Georges Pompidou, Paris</a></li>
+                    <li><a href="centre.html" id="dlc2">Centre Georges Pompidou, Paris</a></li>
                     <br>
-                    <li2><a href="#subSection4" id="dlc2">Lloyd’s Building, Londres</a></li>
+                    <li><a href="#subSection4" id="dlc2">Lloyd’s Building, Londres</a></li>
                       <br>
-                      <li2><a href="#subSection5" id="dlc2">Inmos Microprocessor Factory</a></li>
+                      <li><a href="#subSection5" id="dlc2">Inmos Microprocessor Factory</a></li>
                         <br>
-                        <li2><a href="#subSection6" id="dlc2">Dôme du Millénaire, Londres</a></li>
+                        <li><a href="#subSection6" id="dlc2">Dôme du Millénaire, Londres</a></li>
                           <br>
-                          <li2><a href="#subSection8" id="dlc2">Palais de justice d’Anvers</a></li>
+                          <li><a href="#subSection8" id="dlc2">Palais de justice d’Anvers</a></li>
                             <br>
-                            <li2><a href="#subSection9" id="dlc2">Three World Trade Center, New York</a></li>
+                            <li><a href="#subSection9" id="dlc2">Three World Trade Center, New York</a></li>
                 </ul>
             <img src="public/img/Barre de style blanc.png" alt="bar" id="bar">
                 <li><a href="#section3" id="dlc">Frise chronologique</a></li>
@@ -85,8 +84,8 @@
                     </div>
                     <div id="ecran-2" class="carrousel_ecran">
                         <figure>
-                            <img src="public/img/Lloyds.webp"
-                        </figure>
+                            <img src="public/img/Lloyds.webp">
+                       </figure>
                     </div>
                     <div id="ecran-3" class="carrousel_ecran">
                         <figure>
@@ -95,11 +94,7 @@
                         </figure>
                 </div>
             </div>
-        
-        
-        
-        
-        </main>
+       </main>
             <footer>
                 <div class="logo-container">
                 <img src="public/img/Logo du site 1.png" alt="logo" id="logofooter">

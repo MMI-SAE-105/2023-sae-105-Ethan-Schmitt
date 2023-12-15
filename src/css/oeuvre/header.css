@@ -16,10 +16,8 @@ header {
     margin-right: -12px;
     display: flex;
     flex-direction: column;
-    padding: 0;
+    
     justify-content: center;
-    box-sizing: border-box;
-    z-index: -1;
 }
 
 header::before {
@@ -29,7 +27,8 @@ header::before {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(180deg, rgba(128, 0, 0, 0.42) 0%, rgba(128, 0, 0, 0.42) 100%, rgba(0, 0, 0, 0.00) 50.23%, #FFF 146.44%, rgba(0, 0, 0, 0.00) 50.23%, #FFF 146.44%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50.23%, #FFF 146.44%);
+    background: rgba(117, 48, 48, 0.65);
     z-index: 0;
 }
 
@@ -188,7 +187,7 @@ header h3 {
 }
 
 li  {
-   
+    list-style: none; /* enlève les points */
     margin: 20px 0; 
 }
 
@@ -221,12 +220,14 @@ li2{
     line-height: 100%; /* 25px */
     text-decoration: none; /* enlève le soulignement */
 }
+
+
 #ba {
     display: flex;
     width: 297px;
     height: 2px;
     flex-shrink: 0;
-    z-index: 100;
+    z-index: 3;
     margin-top: 10px;
     margin-left: 20px;
 }
